@@ -1,0 +1,31 @@
+{
+  "name": "zdrowi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finus16/zdrowi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finus16/zdrowi/issues"
+  },
+  "homepage": "https://github.com/finus16/zdrowi#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "popper.js": "^1.16.1"
+  }
+}
