@@ -20,6 +20,8 @@
   "homepage": "https://github.com/finus16/zdrowi#readme",
   "devDependencies": {
     "css-loader": "^4.2.2",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
