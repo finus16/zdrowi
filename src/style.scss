@@ -1,3 +1,4 @@
+@import '~bootstrap';
 
 $dark-blue: #202c60;
 $mint: #12b199;
@@ -38,7 +39,7 @@ body{
             height: 100vh;
             position: relative;
 
-            img{
+            > img{
                 position: absolute;
                 bottom: 0;
                 right: 2%;
@@ -59,6 +60,25 @@ body{
                     margin-top: 20px;
                 }
             }
+
+            .navbar{
+                padding-left: 10%;
+                font-weight: 600;
+
+                .navbar-nav{
+                    width: 100%;
+                    justify-content: space-between;
+    
+                    .nav-item{
+                        padding: 0 8px;
+
+                        .nav-link{
+                            color: $dark-blue;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
         }
     
         .more-section{
@@ -67,11 +87,6 @@ body{
 
             .follow-us{
                 color: white;
-            }
-
-            h1{
-                font-size: 90px;
-                line-height: 90px;
             }
 
             button{
