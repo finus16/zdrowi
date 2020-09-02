@@ -1,1 +1,85 @@
-@import '~bootstrap';
+
+$dark-blue: #202c60;
+$mint: #12b199;
+$gray: #e9e9e9;
+
+.mint{
+    color: $mint;
+}
+
+.dark-blue{
+    columns: $dark-blue;
+}
+
+.white{
+    color: white;
+}
+
+.h-roboto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    .header {
+        background-color: white;
+
+        .slider-section{
+            height: 100vh;
+            position: relative;
+
+            img{
+                position: absolute;
+                bottom: 0;
+                right: 2%;
+                width: 60%;
+            }
+
+            .slider-title{
+                position: absolute;
+                bottom: 40%;
+                left: 10%;
+                font-size: 80px;
+                line-height: 80px;
+
+                .underline{
+                    height: 20px;
+                    width: 250px;
+                    background-color: $mint;
+                    margin-top: 20px;
+                }
+            }
+        }
+    
+        .more-section{
+            background-color: $dark-blue;
+            height: 100vh;
+
+            .follow-us{
+                color: white;
+            }
+
+            h1{
+                font-size: 90px;
+                line-height: 90px;
+            }
+
+            button{
+                border: 2px solid $mint;
+                color: white;
+                padding: 15px;
+                background-color: $dark-blue;
+            }
+        }
+    }
+}
