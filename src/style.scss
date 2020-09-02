@@ -98,3 +98,62 @@ body{
         }
     }
 }
+
+.footer {
+    background-color: $gray;
+
+    .contact-info {
+
+        > div {
+            padding: 15px;
+
+            > span {
+                display: block;
+
+                &.name {
+                    color: $dark-blue;
+                }
+            }
+        }
+
+    }
+
+    .got-question {
+
+        > h1 {
+            color: $dark-blue;
+        }
+
+        > span {
+            display: block;
+        }
+
+        > div {
+            > span {
+                display: inline;
+            }
+        }
+
+    }
+
+    .contact-form {
+
+        > form {
+
+            > input {
+                background-color: $dark-blue;
+                color: white;
+
+                &[type=submit] {
+                    background-color: $mint;
+                }
+            }
+
+            > textarea {
+                background-color: $dark-blue;
+                color: white;
+            }
+        }
+
+    }
+}
