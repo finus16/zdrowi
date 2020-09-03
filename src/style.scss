@@ -1,4 +1,5 @@
 @import '~bootstrap';
+@import '@fortawesome/fontawesome';
 
 $dark-blue: #202c60;
 $mint: #12b199;
@@ -25,6 +26,11 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Bebas Neue', cursive;
     font-style: normal;
     font-weight: 400;
+}
+
+.section-title {
+    color: $dark-blue;
+    font-size: 72px;
 }
 
 body{
@@ -99,8 +105,23 @@ body{
     }
 }
 
+.trainings {
+
+    .card-title {
+        background-color: $dark-blue;
+        color: white;
+        text-align: center;
+    }
+
+    .card-body {
+        background-color: $gray;
+        padding: 15px;
+    }
+}
+
 .footer {
     background-color: $gray;
+    padding: 25px;
 
     .contact-info {
 
@@ -112,6 +133,7 @@ body{
 
                 &.name {
                     color: $dark-blue;
+                    font-weight: bold;
                 }
             }
         }
@@ -129,6 +151,9 @@ body{
         }
 
         > div {
+            display: inline;
+            border-top: 10px solid $mint;
+            padding: 15px;
             > span {
                 display: inline;
             }
@@ -142,16 +167,34 @@ body{
 
             > input {
                 background-color: $dark-blue;
-                color: white;
+                margin-bottom: 15px;
+                padding: 10px;
+                display: block;
+                width: 100%;
 
-                &[type=submit] {
-                    background-color: $mint;
+                &::placeholder {
+                    color: white;
                 }
             }
 
             > textarea {
                 background-color: $dark-blue;
+                padding: 10px;
+                display: block;
+                width: 100%;
+                margin-bottom: 15px;
+
+                &::placeholder {
+                    color: white;
+                }
+            }
+
+            > button {
+                background-color: $mint;
+                padding: 5px;
                 color: white;
+                width: 50%;
+                float: right;
             }
         }
 
