@@ -31,6 +31,18 @@ h1, h2, h3, h4, h5, h6{
 .section-title {
     color: $dark-blue;
     font-size: 72px;
+    display: block;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: 0px;
+        left: 0px;
+        width: 150px;
+        height: 10px;
+        background-color: $mint;
+    }
 }
 
 body{
@@ -106,6 +118,7 @@ body{
 }
 
 .trainings {
+    margin-top: 40px;
 
     .card-title {
         background-color: $dark-blue;
@@ -126,7 +139,7 @@ body{
     .contact-info {
 
         > div {
-            padding: 15px;
+            margin-top: 15px;
 
             > span {
                 display: block;
@@ -171,6 +184,7 @@ body{
                 padding: 10px;
                 display: block;
                 width: 100%;
+                color: white;
 
                 &::placeholder {
                     color: white;
