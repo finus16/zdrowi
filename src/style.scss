@@ -1,5 +1,4 @@
 @import '~bootstrap';
-@import '@fortawesome/fontawesome';
 
 $dark-blue: #202c60;
 $mint: #12b199;
@@ -283,9 +282,11 @@ body{
         }
 
         > div {
-            display: inline;
+            display: inline-block;
             border-top: 10px solid $mint;
-            padding: 15px;
+            padding-top: 15px;
+            color: $mint;
+
             > span {
                 display: inline;
             }
@@ -304,6 +305,7 @@ body{
                 display: block;
                 width: 100%;
                 color: white;
+                border: 1px solid $dark-blue;
 
                 &::placeholder {
                     color: white;
@@ -316,6 +318,8 @@ body{
                 display: block;
                 width: 100%;
                 margin-bottom: 15px;
+                color: white;
+                border: 1px solid $dark-blue;
 
                 &::placeholder {
                     color: white;
