@@ -274,6 +274,8 @@ body{
                 &.name {
                     color: $dark-blue;
                     font-weight: bold;
+                    font-family: 'Bebas Neue', cursive;
+                    font-size: 1.5rem;
                 }
             }
         }
@@ -294,10 +296,20 @@ body{
             display: inline-block;
             border-top: 10px solid $mint;
             padding-top: 15px;
+            margin-top: 5px;
             color: $mint;
+            font-size: 1.5rem;
 
             > span {
                 display: inline;
+            }
+
+            > a {
+                color: $mint;
+                
+                &:hover {
+                    border-bottom: 3px solid $mint;
+                }
             }
         }
 
