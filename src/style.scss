@@ -91,6 +91,15 @@ body{
                 }
             }
         }
+
+        .follow-us{
+            a{
+                i:hover{
+                    color: $mint;
+                    transition: 0.3s ease;
+                }
+            }
+        }
     }
 
     .slider{
