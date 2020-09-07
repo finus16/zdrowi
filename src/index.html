@@ -9,85 +9,87 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="header">
+    <header>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-8">
-                    <div class="slider-section">
-                        <nav class="navbar navbar-expand-xl navbar-light py-0">
-                            <a class="navbar-brand" href="#"><img src="../img/logo.png"></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav p-5">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Trenerzy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Trening</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Aktywna firma</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Sprawne dziecko</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Kariera Trenera</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Kontakt</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <img src="../img/slider_women.png" class="img-fluid" alt="Responsive image">
-                        <div class="slider-title">
-                            <span class="d-block dark-blue h-roboto"><i>TO JEST</i></span>
-                            <span class="d-block mint h-roboto"><i>TWOJA</i></span>
-                            <span class="d-block mint h-roboto"><i>PRZYSZŁOŚĆ</i></span>
-                            <div class="underline"></div>
+                    <nav class="navbar navbar-expand-xl navbar-light w-100 pl-7">
+                        <a class="navbar-brand pr-5" href="#"><img src="../img/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Trenerzy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Trening</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Aktywna firma</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sprawne dziecko</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Kariera Trenera</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Kontakt</a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
+                    </nav>
                 </div>
-                <div class="col-xl-4 p-0">
-                    <div class="more-section">
-                        <div class="row m-0 p-5 d-flex justify-content-end">
-                            <div class="follow-us">
-                                <span>follow us</span>
-                                <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-                                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                                <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
-                            </div>
-                        </div>
-                        <div class="more-title">
-                            <div class="row m-0 p-5 d-flex justify-content-center justify-content-xl-start">
-                                <h1 class="text-center text-xl-left">
-                                    <span class="mint d-lg-block">kariera</span>
-                                    <span class="mint d-lg-block">trenera</span>
-                                    <span class="mint d-lg-block">personalnego</span>
-                                    <span class="white d-lg-block">zdobądź</span>
-                                    <span class="white d-lg-block">jeszcze</span>
-                                    <span class="white d-lg-block">więcej</span>
-                                    <span class="white d-lg-block">wiedzy</span>
-                                </h1>
-                            </div>
-                            <div class="row m-0 px-5 d-flex justify-content-center justify-content-xl-start">
-                                <span class="white d-block">Dowiedz się więcej kontaktując się z nami!</span>
-                            </div>
-                            <div class="row m-0 p-5 d-flex justify-content-center justify-content-xl-start">
-                                <button type="button" class="btn">Zobacz więcej</button>
-                            </div>
+                <div class="col-xl-4 p-0 d-none d-xl-inline">
+                    <div class="dark-blue-bg h-100 pr-7 d-flex align-items-center justify-content-end">
+                        <div class="follow-us d-flex align-items-center">
+                            <span class="white">follow us</span>
+                            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+    <section class="slider">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-xl-8 h-100 d-flex align-items-center">
+                    <img src="../img/slider_women.png" class="img-fluid slider-img" alt="Responsive image">
+                    <div class="slider-title pl-7">
+                        <span class="d-block dark-blue h-roboto"><i>TO JEST</i></span>
+                        <span class="d-block mint h-roboto"><i>TWOJA</i></span>
+                        <span class="d-block mint h-roboto"><i>PRZYSZŁOŚĆ</i></span>
+                        <div class="underline"></div>
+                    </div>
+                </div>
+                <div class="col-xl-4 p-0">
+                    <div class="dark-blue-bg h-100 p-5 d-flex align-items-center justify-content-center justify-content-xl-start">
+                        <div class="right-section text-center text-xl-left pr-7">
+                            <h1>
+                                <span class="mint d-lg-block">kariera</span>
+                                <span class="mint d-lg-block">trenera</span>
+                                <span class="mint d-lg-block">personalnego</span>
+                                <span class="white d-lg-block">zdobądź</span>
+                                <span class="white d-lg-block">jeszcze</span>
+                                <span class="white d-lg-block">więcej</span>
+                                <span class="white d-lg-block">wiedzy</span>
+                            </h1>
+                            <span class="white d-block mt-4">Dowiedz się więcej kontaktując się z nami!</span>
+                            <button type="button" class="btn mt-3">Zobacz więcej</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="training">
         <div class="container">
