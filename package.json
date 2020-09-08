@@ -20,6 +20,7 @@
   "homepage": "https://github.com/finus16/zdrowi#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.1.0",
     "css-loader": "^4.2.2",
     "file-loader": "^6.1.0",
     "html-loader": "^1.3.0",

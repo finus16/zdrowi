@@ -1,6 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -11,7 +12,12 @@ module.exports = {
 
     plugins: [
         new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
-        new HtmlWebackPlugin({ template: "./src/index.html"})
+        new HtmlWebackPlugin({ template: "./src/index.html"}),
+        new CopyPlugin({
+            patterns: [
+              { from: 'img', to: 'img' }
+            ],
+          }),
     ],
 
     module: {
