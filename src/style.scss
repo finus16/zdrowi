@@ -338,6 +338,8 @@ body{
 }
 
 .changes {
+    margin-top: 40px;
+
     .carousel {
 
         .carousel-inner {
@@ -370,6 +372,7 @@ body{
 }
 
 .reference{
+    margin-top: 40px;
 
     .carousel{
 
@@ -403,6 +406,10 @@ body{
             border-radius: 0;
             background-color: $gray;
             border: none;
+
+            .card-text{
+                font-size: 14px;
+            }
         
             .card-img{
                 border-radius: 0;
@@ -413,6 +420,7 @@ body{
 }
 
 .cooperation {
+    margin-top: 40px;
 
     img {
         width: 100%;
