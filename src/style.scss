@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6{
     display: block;
     position: relative;
     margin-bottom: 20px;
+    margin-top: 30px;
 
     &::after {
         position: absolute;
@@ -58,6 +59,14 @@ h1, h2, h3, h4, h5, h6{
         width: 150px;
         height: 10px;
         background-color: $mint;
+    }
+}
+
+.padding-scroll {
+    padding-top: 90px;
+
+    .section-title {
+        margin-top: 0;
     }
 }
 
@@ -183,7 +192,6 @@ body{
 }
 
 .trainers{
-    margin-top: 40px;
 
     .card{
         border: none;
@@ -229,7 +237,6 @@ body{
 }
 
 .training {
-    margin-top: 40px;
 
     .personal-left {
         span {
@@ -338,7 +345,6 @@ body{
 }
 
 .changes {
-    margin-top: 40px;
 
     .carousel {
 
@@ -372,7 +378,6 @@ body{
 }
 
 .reference{
-    margin-top: 40px;
 
     .carousel{
 
@@ -420,7 +425,6 @@ body{
 }
 
 .cooperation {
-    margin-top: 40px;
 
     img {
         width: 100%;
