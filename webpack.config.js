@@ -12,7 +12,18 @@ module.exports = {
 
     plugins: [
         new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
-        new HtmlWebackPlugin({ template: "./src/index.html"}),
+        new HtmlWebackPlugin({ 
+            template: "./src/index.html",
+            filename: "index.html"
+        }),
+        new HtmlWebackPlugin({ 
+            template: "./src/aktywna-firma.html",
+            filename: "aktywna-firma.html"
+        }),
+        new HtmlWebackPlugin({ 
+            template: "./src/kariera-trenera.html",
+            filename: "kariera-trenera.html"
+        }),
         new CopyPlugin({
             patterns: [
               { from: 'img', to: 'img' }
