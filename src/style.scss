@@ -276,9 +276,30 @@ body{
 
     .carousel{
 
+        .carousel-inner {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
         .carousel-control-prev, .carousel-control-next{
             color: $mint;
             opacity: 1;
+            background-color: white;
+            width: 5%;
+
+            .carousel-control-prev-icon {
+                background-color: white;
+                border-top: 5px solid $mint;
+                border-left: 5px solid $mint;
+                transform: rotate(-45deg);
+            }
+
+            .carousel-control-next-icon {
+                background-color: white;
+                border-top: 5px solid $mint;
+                border-right: 5px solid $mint;
+                transform: rotate(45deg);
+            }
         }
 
         .card{
