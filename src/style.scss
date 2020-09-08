@@ -379,6 +379,10 @@ body{
             border-radius: 0;
             background-color: $gray;
             border: none;
+
+            .card-text{
+                font-size: 14px;
+            }
         
             .card-img{
                 border-radius: 0;
