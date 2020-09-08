@@ -156,6 +156,7 @@ body{
 }
 
 .trainers{
+    margin-top: 40px;
 
     .card{
         border: none;
@@ -209,7 +210,6 @@ body{
             font-size: 3.75rem;
             line-height: 100%;
             font-family: 'Bebas Neue', cursive;
-            font-weight: bold;
 
             &:nth-of-type(1){
                 color: $dark-blue;
@@ -270,7 +270,7 @@ body{
                 span {
                     color: $dark-blue;
                     font-family: 'Bebas Neue', cursive;
-                    font-size: 1.5rem;
+                    font-size: 2rem;
                 }
 
                 &::after {
@@ -305,7 +305,7 @@ body{
             background-color: $gray;
             padding: 15px;
             font-size: 14px;
-            font-weight: 500;
+            text-align: justify;
         }
     }
 }
