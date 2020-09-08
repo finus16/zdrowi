@@ -159,6 +159,43 @@ body{
 
     .card{
         border: none;
+        height: 100%;
+
+        .text-bg{
+            background-color: $dark-blue;
+            transform: skewX(-15deg);
+        }
+
+        span{
+            font-size: 33px;
+            line-height: 33px;
+        }
+
+        .card-body{
+
+            .card-text{
+                padding-bottom: 2rem;
+                font-size: 14px;
+            }
+
+            a{
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                color: white;
+                padding-top: 30px;
+
+                &:hover{
+                    text-decoration: none;
+                    color: $dark-blue;
+                    transition: 0.3s ease;
+                }
+            }
+        }
+
+        .card-img{
+            width: 50%;
+        }
     }
 
 }
