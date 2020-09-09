@@ -50,10 +50,12 @@ h1, h2, h3, h4, h5, h6{
 .section-title {
     color: $dark-blue;
     font-size: 72px;
+    line-height: 72px;
     display: block;
     position: relative;
     margin-bottom: 20px;
     margin-top: 30px;
+    padding-bottom: 15px;
 
     &::after {
         position: absolute;
@@ -709,6 +711,11 @@ body{
                     width: 100px;
                 }
             }
+        }
+
+        .section-title {
+            font-size: 50px;
+            line-height: 50px;
         }
     }
 }
