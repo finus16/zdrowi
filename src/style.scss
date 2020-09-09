@@ -383,28 +383,33 @@ body{
 
 .programme{
 
-        ul {
-            margin: 0;
-            padding: 0;
+    ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        li {
+            list-style: none;
             position: relative;
-
-            li {
-                list-style: none;
-                position: relative;
-                margin-bottom: 5px;
-                padding-left: 30px;
-
-                &::before{
-                    position: absolute;
-                    content: '';
-                    top: 8px;
-                    height: 10px;
-                    left: 0;
-                    width: 25px;
-                    background-color: $mint;
-                }
+            margin-bottom: 5px;
+            padding-left: 30px;
+            &::before{
+                position: absolute;
+                content: '';
+                top: 8px;
+                height: 10px;
+                left: 0;
+                width: 25px;
+                background-color: $mint;
             }
         }
+    }
+    a{
+        &:hover{
+            text-decoration: none;
+            color: $dark-blue;
+            transition: 0.3s ease;
+        }
+    }
 }
 
 .changes {
