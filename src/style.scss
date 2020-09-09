@@ -723,13 +723,17 @@ body{
 @media (max-width: 576px){
     body .slider{
 
+        .slider-home-img{
+            height: auto;
+        }
+
         .right-section{
+
             h1{
                 font-size: 50px;
                 line-height: 50px;
             }
         }
-        padding-top: 120px;
     }
 
 }
