@@ -1,8 +1,4 @@
-import _ from 'lodash';
 import './style.scss';
-import 'bootstrap';
-
-import $ from 'jquery';
 
 $('.navbar-nav a').on('click', function(e){
     let url = $(this).attr('href');
