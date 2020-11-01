@@ -24,6 +24,10 @@ module.exports = {
             template: "./src/kariera-trenera.html",
             filename: "kariera-trenera.html"
         }),
+        new HtmlWebackPlugin({
+            template: "./src/sprawne-dziecko.html",
+            filename: 'sprawne-dziecko.html'
+        }),
         new CopyPlugin({
             patterns: [
               { from: 'img', to: 'img' }
