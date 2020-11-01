@@ -215,7 +215,7 @@ body{
         }
 
 
-        button{
+        a{
             border: 2px solid $mint;
             color: white;
             padding: 15px;
@@ -295,7 +295,7 @@ body{
     }
 
     .personal-right {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 100%;
 
         p {
@@ -310,17 +310,13 @@ body{
             li {
                 list-style: none;
                 position: relative;
-                margin-bottom: 5px;
-                padding-left: 30px;
+                margin-top: 3px;
+                margin-bottom: 3px;
+                padding-left: 5px;
 
-                &::before{
-                    position: absolute;
-                    content: '';
-                    top: 2px;
-                    height: 10px;
-                    left: 0;
-                    width: 25px;
-                    background-color: $mint;
+                span.mint {
+                    color: $mint;
+                    font-weight: bold;
                 }
             }
         }
@@ -393,15 +389,10 @@ body{
             list-style: none;
             position: relative;
             margin-bottom: 5px;
-            padding-left: 30px;
-            &::before{
-                position: absolute;
-                content: '';
-                top: 8px;
-                height: 10px;
-                left: 0;
-                width: 25px;
-                background-color: $mint;
+            padding-left: 5px;
+
+            .mint{
+                font-weight: bold;
             }
         }
     }
@@ -702,7 +693,7 @@ body{
         .slider{
         
             .slider-title{
-                font-size: 30px;
+                font-size: 26px;
                 line-height: 30px;
                 padding: 60px 0 60px 0;
             
