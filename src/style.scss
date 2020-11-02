@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6{
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    padding-top: 91px;
 
     header {
         position: fixed;
@@ -150,8 +151,6 @@ body{
     }
 
     .slider{
-        height: 100vh;
-        padding-top: 91px;
 
         .slider-name-left{
             position: absolute;
@@ -713,10 +712,6 @@ body{
 
 @media (max-width: 576px){
     body .slider{
-
-        .slider-home-img{
-            height: auto;
-        }
 
         .right-section{
 
