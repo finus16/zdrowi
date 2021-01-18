@@ -6,6 +6,12 @@
 get_template_part( 'header' );
 
 /**
+ * Slider
+ */
+
+get_template_part( 'partials/sliders/home' );
+
+/**
  * Trenerzy
  */
 get_template_part( 'partials/trenerzy' );
