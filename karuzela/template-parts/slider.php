@@ -40,12 +40,4 @@ foreach ( $settings as $name => $config ) {
 			</div>
 		</div>
 
-		<script type="text/javascript">
-			jQuery(window).on('load', function() {
-				new SuperSimpleSlider( '#super-simple-slider-<?php echo $slider_id; ?>', {
-					speed: <?php echo $slider_settings['super_simple_slider_speed']; ?>,
-				})
-			});
-		</script>
-
 	<?php endif; ?>
