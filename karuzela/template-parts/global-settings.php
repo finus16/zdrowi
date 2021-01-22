@@ -5,14 +5,18 @@
 	</li>
 
 	<li>
-		<?php $this->create_justart_form_control( 'justart_slider_interval', $this->settings ); ?>
+		<?php //$this->create_justart_form_control( 'justart_slider_interval', $this->settings ); ?>
 	</li>
 	
 	<li>
-		<?php $this->create_justart_form_control( 'justart_slider_duration', $this->settings ); ?>
+		<?php //$this->create_justart_form_control( 'justart_slider_duration', $this->settings ); ?>
 	</li>
 
 	<li>
-		<?php $this->create_justart_form_control( 'justart_slider_pause_on_hover', $this->settings ); ?>
+		<?php $this->create_justart_form_control( 'justart_slider_template', $this->settings ); ?>
+	</li>
+
+	<li>
+		<?php //$this->create_justart_form_control( 'justart_slider_pause_on_hover', $this->settings ); ?>
 	</li>
 </ul>

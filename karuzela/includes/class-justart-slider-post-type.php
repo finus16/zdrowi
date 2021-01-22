@@ -69,7 +69,20 @@ class JustartSliderPostType {
 					'class'			=> 'full-width',
 					'default'		=> 400,
 					'description' => 'Duration of the animation between slides in ms.'
-                )
+				),
+
+                'justart_slider_template' => array(
+                    'label'			=> 'Slide template',
+					'type'			=> 'select',
+					'placeholder'	=> '',
+					'class'			=> 'full-width',
+					'default'		=> 'placeholder',
+					'options'		=> array(
+							''				=> 'Chose slide template...',
+							'referencje' 	=> 'referencje',
+							'metamorfozy' 	=> 'metamorfozy'
+					)
+				)
 			)
 		);
 		
