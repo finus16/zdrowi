@@ -27,16 +27,9 @@ class JustartSliderWidget extends WP_Widget {
 			echo $args['before_title'] . $title . $args['after_title'];
 		}
 
-		// This is where you run the code and display the output
 		if ( ! empty( $id ) ) {
-			//echo '<pre>';
-			
-			//print_r( $justart_slider->post_type->settings );
-			
-			//$this->$settings = $justart_slider->post_type->settings;
+
 			echo $justart_slider->post_type->create_slider( $id );
-			
-			//echo '</pre>';
 			//include( $justart_slider->assets_dir .'/template-parts/slider.php' );
 		}
 		

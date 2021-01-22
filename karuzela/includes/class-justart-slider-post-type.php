@@ -452,7 +452,7 @@ class JustartSliderPostType {
 
 	function create_slider( $id ) {
 		ob_start();
-		include( $this->parent->assets_dir .'/template-parts/slider.php' );
+		include( $this->parent->assets_dir .'template-parts/slider.php' );
 		return ob_get_clean();
 	}
 	

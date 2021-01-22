@@ -4,7 +4,7 @@ if ( get_post_status( $id ) != 'publish' || get_post_type( $id ) != 'justart-sli
 	return;
 }
 
-$slides = get_post_meta( $id, 'super-simple-slider-slide-settings-group', true );
+$slides = get_post_meta( $id, 'justart-slider-slide-settings-group', true );
 
 $settings = $this->settings['fields'];
 $slider_settings = array();
@@ -22,13 +22,13 @@ foreach ( $settings as $name => $config ) {
 				<ul class="glide__slides">
 					<?php
 						foreach ($slides as $slide) {
-							$image_id 	 = $slide['super_simple_slider_slide_image'];
+							$image_id 	 = $slide['justart_slider_slide_image'];
 							$title = trim( $slide['justart_slider_slide_title'] );
 							$description  = trim( $slide['justart_slider_slide_description'] );
 
 							$slide_image = wp_get_attachment_image_src( $image_id, 'full' );
 
-							include( $this->parent->assets_dir .'/templates/' . $template . '.php' );
+							include( $this->parent->assets_dir .'templates/slides/' . $template . '.php' );
 						}
 					?>
 				</ul>
