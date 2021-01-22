@@ -16,7 +16,7 @@ $(function() {
             perView: 2,
             autoplay: 2500,
             breakpoints: {
-                650: {
+                780: {
                     perView: 1
                 }
             }
