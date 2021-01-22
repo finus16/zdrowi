@@ -81,15 +81,15 @@ class JustartSliderPostType {
 					'class'			=> '',
 					'description'	=> '',
 				),
-				'justart_slider_slide_name' => array(
-					'type'			=> 'text',
-					'placeholder'	=> 'Name',
-					'class'			=> '',
-					'description'	=> ''
-				),
 				'justart_slider_slide_title' => array(
 					'type'			=> 'text',
 					'placeholder'	=> 'Title',
+					'class'			=> '',
+					'description'	=> ''
+				),
+				'justart_slider_slide_description' => array(
+					'type'			=> 'textarea',
+					'placeholder'	=> 'Description',
 					'class'			=> '', //'full-width text',
 					'description'	=> ''
 				)
