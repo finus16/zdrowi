@@ -1,6 +1,6 @@
 
 <?php
-if ( get_post_status( $id ) != 'publish' || get_post_type( $id ) != 'super-simple-slider' ) {
+if ( get_post_status( $id ) != 'publish' || get_post_type( $id ) != 'justart-slider' ) {
 	return;
 }
 
