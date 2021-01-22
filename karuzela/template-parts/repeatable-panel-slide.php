@@ -20,14 +20,16 @@
 
         <!-- Content -->
         <div class="tab-content content active">
-            <?php $this->create_justart_form_control( 'justart_slider_slide_name', $this->repeatable_fieldset_settings ); ?>
             <?php $this->create_justart_form_control( 'justart_slider_slide_title', $this->repeatable_fieldset_settings ); ?>
+            <?php $this->create_justart_form_control( 'justart_slider_slide_description', $this->repeatable_fieldset_settings ); ?>
         </div>
         
         <!-- SEO -->
         <div class="tab-content seo">
-            <?php $this->create_justart_form_control( 'super_simple_slider_slide_image_alt', $this->repeatable_fieldset_settings ); ?>
-            <?php $this->create_justart_form_control( 'super_simple_slider_slide_image_title', $this->repeatable_fieldset_settings ); ?>
+            <?php 
+                $this->create_justart_form_control( 'super_simple_slider_slide_image_alt', $this->repeatable_fieldset_settings );
+                $this->create_justart_form_control( 'super_simple_slider_slide_image_title', $this->repeatable_fieldset_settings ); 
+            ?>
         </div>
         
     </div>
