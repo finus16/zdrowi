@@ -36,10 +36,10 @@ foreach ( $settings as $name => $config ) {
 
 			<div class="glide__arrows" data-glide-el="controls">
 				<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-					<i class="fas fa-chevron-left"></i>
+					<i class="fa fa-chevron-left"></i>
 				</button>
 				<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-					<i class="fas fa-chevron-right"></i>
+					<i class="fa fa-chevron-right"></i>
 				</button>
 			</div>
 		</div>
