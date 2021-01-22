@@ -1,9 +1,4 @@
 <?php
-/**
- * The template for displaying all single Justart Sliders.
- *
- * @package Justart Slider
- */
 
 get_header(); ?>
 
@@ -18,9 +13,9 @@ get_header(); ?>
 			}
 			?>		
 
-		<?php endwhile; // end of the loop. ?>
+		<?php endwhile; ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+		</main>
+	</div>
 
 <?php get_footer(); ?>
