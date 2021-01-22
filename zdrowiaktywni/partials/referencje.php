@@ -1,7 +1,9 @@
 <div class="reference">
         <div class="container">
             <h1 class="section-title">Referencje</h1>
-            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+            <?php dynamic_sidebar( 'referencje' ); ?>
+
+            <!-- <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="card my-3">
@@ -72,6 +74,6 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
